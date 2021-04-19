@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: demo.1998.test@gmail.com
+Date: Tue, 06 Apr 2021 08:26:06 -0000
+Message-ID: <161769756695.3834.11215570856953739789@linux>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/accounts/reset/MQ/akocri-f889a071224c76825a1c1e5869eca9dc/
+
+Your username, in case you’ve forgotten: sandeep
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Django Auth Tutorial{% endblock %}</title>
+
+
+{% block content %}
+<h2>Log In</h2>
+
+ 
+  <form class="main" method="POST">
+  {% csrf_token %}
+    <table>
+        <tr>
+            <td><label for="username">Username : &gt;</label></td>
+            <!-- <td><input type="email" id="username" placeholder=" E-mail (or) Username"></td> -->
+            <td>{{form.username}}</td>
+        </tr>
+        <tr>
+            <td><label for="password">Password : &gt;</label></td>
+            <!-- <td><input type="password" id="password" name="" id="" placeholder="P@$sw0rD"></td> -->
+            <td>{{form.password}}</td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr >
+            <td><input type="submit" value="Login"></td>
+            <td><button><a href= "{% url 'signup' %}" >Register</a></button></td>
+        </tr>
+    </table>
+</form>
+
+{% endblock %}
